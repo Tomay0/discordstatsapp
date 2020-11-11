@@ -1,6 +1,19 @@
   
 import logo from './logo.svg';
 import './App.css';
+import Amplify, { API } from 'aws-amplify';
+
+Amplify.configure({API: {
+  endpoints: [
+      {
+          name: "DiscordStatsAPI",
+          endpoint: "https://ai7pkjomr4.execute-api.ap-southeast-2.amazonaws.com/dev"
+      }
+  ]
+}});
+
+
+
 
 function App() {
   return (
