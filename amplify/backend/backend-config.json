@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "discordstatsappf2228174": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
