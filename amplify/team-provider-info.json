@@ -10,11 +10,6 @@
       "StackName": "amplify-discordstatsapp-dev-182741",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:644628997657:stack/amplify-discordstatsapp-dev-182741/9f7b1e50-23de-11eb-93f6-0ae47d245972",
       "AmplifyAppId": "d1so4z3inlx2lb"
-    },
-    "categories": {
-      "auth": {
-        "discordstatsappf2228174": {}
-      }
     }
   }
 }
